@@ -105,7 +105,7 @@ export function HeroImageBackground() {
         <Title className={classes.title}>
           Ride for change with {' '}
           <Text component="span" inherit className={classes.highlight}>
-            proteus motors
+            proteus motors.
           </Text>
         </Title>
 

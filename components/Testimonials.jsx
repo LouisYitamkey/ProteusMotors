@@ -12,11 +12,16 @@ export const Testimonials = () => {
             <p className="text-2xl pl-6 font-bold tracking-tight text-black sm:text-4xl">
                     Ride with PROTEUS.
                   </p>
-                    <p className="max-w-xl px-6 mt-4 text-lg md:text-base tracking-tight text-gray-600">
+                    {/* <p className="max-w-xl px-6 mt-4 text-lg md:text-base tracking-tight text-gray-600">
                 Our electric motorbikes are more than vehicles; they are a
                 lifestyle choice that combines technology, style, and
                 sustainability.
-              </p>
+              </p> */}
+              <p className="max-w-xl px-6 mt-4 md:text-xl text-lg tracking-tight text-gray-600">
+                Proteus Motors is at the forefront of sustainable mobility in Africa, offering cutting-edge electric vehicles
+                that empower individuals and businesses.
+                </p>
+
                   <div className="relative md:hidden items-center w-full px-5 py-10 mx-auto md:px-12 lg:px-20 max-w-7xl">
       <figure className="">
         <img className="object-center rounded-md w-full h-auto bg-gray-200" src={Image} alt="" width="1310" height="873"/>
@@ -36,7 +41,7 @@ export const Testimonials = () => {
               </a>
               <a
                 href="#"
-                className="inline-flex items-center my-2 justify-center px-6 text-sm font-semibold text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
+                className="inline-flex items-center my-2 justify-center px-6 text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
               >
                 Learn more &nbsp; →
               </a>

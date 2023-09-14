@@ -17,16 +17,16 @@ const OurBikes = () => {
                   </p>
           <figure>
             <img className="w-full rounded-md pb-2 mb-2 bg-gray-200" src={FirstImage} alt="" width="1310" height="873"/>
-            <span className='font-medium bg-slate-100 my-2  py-1 rounded-md px-3'> Amsterdam E-Bike  </span><br/>
-            <a href="#" className="inline-flex  pt-2 items-center justify-center text-base font-semibold text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+            <span className=' bg-slate-100 my-2  py-1 rounded-md px-3'> Amsterdam E-Bike  </span><br/>
+            <a href="#" className="inline-flex  pl-3 pt-2 items-center justify-center text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
               Learn more &nbsp; →
             </a>
 
           </figure>
           <figure>
             <img className="w-full rounded-md mb-2 bg-gray-200" src={ThirdImage} alt="" width="1310" height="873"/>
-            <span className='font-medium bg-slate-100 my-2 py-1  rounded-md px-3'> All weather E-Bike  </span><br/>
-            <a href="#" className="inline-flex  pt-2 items-center justify-center text-base font-semibold text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+            <span className=' bg-slate-100 my-2 py-1  rounded-md px-3'> All weather E-Bike  </span><br/>
+            <a href="#" className="inline-flex pl-3  pt-2 items-center justify-center text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
               Learn more &nbsp; →
             </a>
            
@@ -35,8 +35,8 @@ const OurBikes = () => {
         <figure className="lg:col-span-4 md:pt-14">
           <img className="w-full rounded-md  mb-2 bg-gray-200" src={SecondImage} alt="" width="1310" height="873"/>
        
-          <span className='font-medium bg-slate-100 my-2 py-1 rounded-md px-3'> Obaatanpa E-Bike  </span><br/>
-          <a href="#" className="inline-flex  pt-2 items-center justify-center text-base font-semibold text-black hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+          <span className=' bg-slate-100 my-2 py-1 rounded-md px-3'> Obaatanpa E-Bike  </span><br/>
+          <a href="#" className="inline-flex pl-3  pt-2 items-center justify-center text-sm  text-black hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
               Learn more &nbsp; →
             </a>
            

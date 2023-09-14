@@ -26,7 +26,7 @@ const Pioneering = () => {
                 </a>
                 <a
                   href="#"
-                  className="inline-flex items-center mt-4 px-6 justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
+                  className="inline-flex items-center px-6 justify-center text-sm  text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
                 >
                   Learn more &nbsp; →
                 </a>

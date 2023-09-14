@@ -14,7 +14,7 @@ export const OurBikesMobile = () => {
       <div className="grid grid-cols-2 col-span-2 gap-4 lg:grid-cols-4">
         <figure>
           <img className="w-full  rounded-md mb-2 bg-white" src={FirstImage} alt="" width="1310" height="873"/>
-          <span className='font-medium bg-white  rounded-md px-3'> Amsterdam E-Bike  </span><br/>
+          <span className='font-medium bg-white py-10 rounded-md px-3'> Amsterdam E-Bike  </span><br/>
             <a href="#" className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
               Learn more &nbsp; →
             </a>

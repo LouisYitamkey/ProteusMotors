@@ -15,28 +15,28 @@ export const OurBikesMobile = () => {
         <figure>
           <img className="w-full  rounded-md mb-2 bg-white" src={FirstImage} alt="" width="1310" height="873"/>
           <span className='font-medium bg-white  rounded-md px-3'> Amsterdam E-Bike  </span><br/>
-            <a href="#" className="inline-flex mb-2  pt-2 items-center justify-center text-base font-semibold text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+            <a href="#" className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
               Learn more &nbsp; →
             </a>
         </figure>
         <figure className="">
           <img className="w-full rounded-md mb-2 py-7 bg-white" src={SecondImage} alt="" width="1310" height="873"/>
           <span className='font-medium bg-slate-100 bg-white  rounded-md px-3'> Amsterdam E-Bike  </span><br/>
-            <a href="#" className="inline-flex mb-2  pt-2 items-center justify-center text-base font-semibold text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+            <a href="#" className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
               Learn more &nbsp; →
             </a>
         </figure>
         <figure className=" mt-5">
           <img className="w-full rounded-md mb-2 py-7 bg-white" src={ThirdImage} alt="" width="1310" height="873"/>
           <span className='font-medium bg-white   rounded-md px-3'> Amsterdam E-Bike  </span><br/>
-            <a href="#" className="inline-flex mb-2  pt-2 items-center justify-center text-base font-semibold text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+            <a href="#" className="inline-flex mb-2 pl-3  pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
               Learn more &nbsp; →
             </a>
         </figure>
         <figure className="mt-5">
           <img className="w-full rounded-md mb-2 py-7 bg-white" src={SecondImage} alt="" width="1310" height="873"/>
           <span className='font-medium bg-white  rounded-md px-3'> Amsterdam E-Bike  </span><br/>
-            <a href="#" className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base font-semibold text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+            <a href="#" className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
               Learn more &nbsp; →
             </a>
         </figure>

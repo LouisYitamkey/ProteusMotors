@@ -12,7 +12,7 @@ const EasyRepairs = () => {
         <div className="max-w-xl mx-auto text-center lg:p-10 lg:text-left">
           <div>
             <p className="text-2xl  font-bold tracking-tight text-black sm:text-4xl">
-  We are  <span className='text-red-500'>  PROTEUS. </span>
+  We are  <span className='text-green-500'>  PROTEUS. </span>
   </p>
   <p className="text-2xl pt-2 font-bold tracking-tight text-black sm:text-4xl">
   We are bringing the future of mobility to Africa today.

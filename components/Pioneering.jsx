@@ -12,7 +12,7 @@ const Pioneering = () => {
                 <p className="text-2xl py-4 font-bold tracking-tight text-black sm:text-4xl">
                 Pioneering Electric Vehicles (EVs) in Africa.
                 </p>
-                <p className="max-w-xl  mt-4 md:text-xl text-lg tracking-tight text-gray-600">
+                <p className="md:max-w-xl px-4  mt-4 md:text-xl text-lg tracking-tight text-gray-600">
                 Proteus Motors is at the forefront of sustainable mobility in Africa, offering cutting-edge electric vehicles
                 that empower individuals and businesses.
                 </p>

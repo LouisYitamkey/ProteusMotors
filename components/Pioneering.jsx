@@ -1,5 +1,5 @@
 import React from "react";
-import Image from '../src/images/evbike1.png'
+import Image from "../src/images/evbike1.png";
 
 const Pioneering = () => {
   return (
@@ -10,11 +10,12 @@ const Pioneering = () => {
             <div className="max-w-xl mx-auto text-center lg:p-10 lg:text-left">
               <div>
                 <p className="text-2xl py-4 font-bold tracking-tight text-black sm:text-4xl">
-                Pioneering Electric Vehicles (EVs) in Africa.
+                  Pioneering Electric Vehicles (EVs) in Africa.
                 </p>
                 <p className="md:max-w-xl px-4  mt-4 md:text-xl text-lg tracking-tight text-gray-600">
-                Proteus Motors is at the forefront of sustainable mobility in Africa, offering cutting-edge electric vehicles
-                that empower individuals and businesses.
+                  Proteus Motors is at the forefront of sustainable mobility in
+                  Africa, offering cutting-edge electric vehicles that empower
+                  individuals and businesses.
                 </p>
               </div>
               <div className="flex flex-col items-center justify-center max-w-lg gap-3 mx-auto mt-10 lg:flex-row lg:justify-start">

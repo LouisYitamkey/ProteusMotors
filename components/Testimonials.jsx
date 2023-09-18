@@ -1,36 +1,38 @@
-import React from 'react'
-import Image from '../src/images/proteusnetwork.webp'
-
+import React from "react";
+import Image from "../src/images/proteusnetwork.webp";
 
 export const Testimonials = () => {
   return (
     <div className="flex md:min-h-screen bg-white">
-      <div className="flex flex-col justify-center flex-1 md:px-8 md:py-8 md:px-12 lg:flex-none lg:px-24">
+      <div className="flex flex-col justify-center flex-1 md:px-8 md:py-8  lg:flex-none lg:px-24">
         <div className="w-full mx-auto lg:max-w-6xl">
           <div className="max-w-xl mx-auto text-center lg:p-10 lg:text-left">
             <div>
-            <p className="text-2xl pl-6 font-bold tracking-tight text-black sm:text-4xl">
-                    Ride with PROTEUS.
-                  </p>
-                    {/* <p className="max-w-xl px-6 mt-4 text-lg md:text-base tracking-tight text-gray-600">
+              <p className="text-2xl pl-6 font-bold tracking-tight text-black sm:text-4xl">
+                Ride with PROTEUS.
+              </p>
+              {/* <p className="max-w-xl px-6 mt-4 text-lg md:text-base tracking-tight text-gray-600">
                 Our electric motorbikes are more than vehicles; they are a
                 lifestyle choice that combines technology, style, and
                 sustainability.
               </p> */}
               <p className="max-w-xl px-6 mt-4 md:text-xl text-lg tracking-tight text-gray-600">
-                Proteus Motors is at the forefront of sustainable mobility in Africa, offering cutting-edge electric vehicles
-                that empower individuals and businesses.
-                </p>
+                Proteus Motors is at the forefront of sustainable mobility in
+                Africa, offering cutting-edge electric vehicles that empower
+                individuals and businesses.
+              </p>
 
-                  <div className="relative md:hidden items-center w-full px-5 py-10 mx-auto md:px-12 lg:px-20 max-w-7xl">
-      <figure className="">
-        <img className="object-center rounded-md w-full h-auto bg-gray-200" src={Image} alt="" width="1310" height="873"/>
-      </figure>
-    </div>
-                
-
-            
-              
+              <div className="relative md:hidden items-center w-full px-5 py-10 mx-auto md:px-12 lg:px-20 max-w-7xl">
+                <figure className="">
+                  <img
+                    className="object-center rounded-md w-full h-auto bg-gray-200"
+                    src={Image}
+                    alt=""
+                    width="1310"
+                    height="873"
+                  />
+                </figure>
+              </div>
             </div>
             <div className="flex flex-col px-6 items-center justify-center gap-3 mt-5 lg:flex-row lg:justify-start">
               <a
@@ -59,5 +61,5 @@ export const Testimonials = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

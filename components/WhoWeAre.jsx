@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from '../src/images/evbike.webp'
+import React from "react";
+import Image from "../src/images/evbike.webp";
 
 const WhoWeAre = () => {
   return (
@@ -14,24 +14,19 @@ const WhoWeAre = () => {
                     We are PROTEUS
                   </p>
                   <p className="text-2xl py-4 font-bold tracking-tight text-black sm:text-4xl">
-                  We are bringing the future of mobility to Africa today
+                    We are bringing the future of mobility to Africa today
                   </p>
                   <p className="max-w-xl mt-4 text-xl tracking-tight text-gray-600">
-                  Our electric motorbikes are more than vehicles; they are a lifestyle choice that combines technology, 
-                  style, and sustainability.
+                    Our electric motorbikes are more than vehicles; they are a
+                    lifestyle choice that combines technology, style, and
+                    sustainability.
                   </p>
                   <p className="max-w-xl mt-4 text-xl py-2 tracking-tight text-gray-600">
-                  Be the change. Ride for change with Proteus Motors and be part of a cooler, cleaner, and sustainable
-                  future
+                    Be the change. Ride for change with Proteus Motors and be
+                    part of a cooler, cleaner, and sustainable future
                   </p>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-3 mt-10 lg:flex-row lg:justify-start">
-                  {/* <a
-                    href="#"
-                    className="items-center justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black"
-                  >
-                    Button
-                  </a> */}
                   <a
                     href="#"
                     className="inline-flex items-center justify-center text-base font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
@@ -50,12 +45,10 @@ const WhoWeAre = () => {
             </div>
           </div>
         </div>
-        <div>
-          
-        </div>
+        <div></div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default WhoWeAre
+export default WhoWeAre;

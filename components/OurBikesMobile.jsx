@@ -19,9 +19,9 @@ export const OurBikesMobile = () => {
               width="1310"
               height="873"
             />
-            <span className="font-medium bg-slate-100 bg-white  rounded-md px-3">
+            <span className="font-medium  bg-white  rounded-md px-3">
               {" "}
-              Amsterdam E-Bike{" "}
+              Proteus Cruiser{" "}
             </span>
             <br />
             <a
@@ -39,9 +39,9 @@ export const OurBikesMobile = () => {
               width="1310"
               height="873"
             />
-            <span className="font-medium bg-slate-100 bg-white  rounded-md px-3">
+            <span className="font-medium bg-white  rounded-md px-3">
               {" "}
-              Amsterdam E-Bike{" "}
+              Proteus GoEasy{" "}
             </span>
             <br />
             <a
@@ -81,7 +81,7 @@ export const OurBikesMobile = () => {
             />
             <span className="font-medium bg-white  rounded-md px-3">
               {" "}
-              Amsterdam E-Bike{" "}
+               All Weather{" "}
             </span>
             <br />
             <a

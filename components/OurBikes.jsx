@@ -22,7 +22,7 @@ const OurBikes = () => {
               />
               <span className=" bg-slate-100 my-2  py-1 rounded-md px-3">
                 {" "}
-                Amsterdam E-Bike{" "}
+                Proteus Cruiser{" "}
               </span>
               <br />
               <a
@@ -42,7 +42,7 @@ const OurBikes = () => {
               />
               <span className=" bg-slate-100 my-2 py-1  rounded-md px-3">
                 {" "}
-                All weather E-Bike{" "}
+                Proteus GoEasy{" "}
               </span>
               <br />
               <a
@@ -64,7 +64,7 @@ const OurBikes = () => {
 
             <span className=" bg-slate-100 my-2 py-1 rounded-md px-3">
               {" "}
-              Obaatanpa E-Bike{" "}
+              Proteus All Weather{" "}
             </span>
             <br />
             <a

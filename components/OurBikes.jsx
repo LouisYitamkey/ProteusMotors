@@ -16,7 +16,7 @@ const OurBikes = () => {
               <img
                 className="w-full rounded-md pb-2 mb-2 bg-gray-200"
                 src={FirstImage}
-                alt=""
+                alt="Image"
                 width="1310"
                 height="873"
               />
@@ -36,7 +36,7 @@ const OurBikes = () => {
               <img
                 className="w-full rounded-md mb-2 bg-gray-200"
                 src={ThirdImage}
-                alt=""
+                alt="Image"
                 width="1310"
                 height="873"
               />
@@ -57,7 +57,7 @@ const OurBikes = () => {
             <img
               className="w-full rounded-md  mb-2 bg-gray-200"
               src={SecondImage}
-              alt=""
+              alt="Image"
               width="1310"
               height="873"
             />

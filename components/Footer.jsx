@@ -43,7 +43,7 @@ function FooterCentered({ links }) {
   return (
     <div className={classes.footer}>
       <div className={classes.inner}>
-        <img className="object-contain  w-[124px]  h-[80px] " src={Logo} />
+        <img className="object-contain  w-[124px]   h-[80px] " src={Logo} alt="Image" />
 
         <Group className={classes.links}>{items}</Group>
       </div>

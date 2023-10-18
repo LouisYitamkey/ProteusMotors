@@ -135,7 +135,7 @@ export function HeaderMegaMenu() {
         <Group position="apart" sx={{ height: "100%" }}>
           <Link to="/">
             {" "}
-            <img className="object-contain w-[124px]  h-[80px]" src={Logo} />
+            <img className="object-contain w-[124px]  h-[80px]" src={Logo} alt="Image" />
           </Link>
 
           <Group

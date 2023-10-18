@@ -9,7 +9,7 @@ export const BigMotor = () => {
           <img
             className="object-center w-full h-auto bg-gray-50"
             src={Image}
-            alt=""
+            alt="Image"
             width="1310"
             height="873"
           />

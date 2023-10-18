@@ -15,7 +15,7 @@ export const OurBikesMobile = () => {
             <img
               className="w-full  rounded-md mb-2  bg-white"
               src={FirstImage}
-              alt=""
+              alt="Image"
               width="1310"
               height="873"
             />
@@ -35,7 +35,7 @@ export const OurBikesMobile = () => {
             <img
               className="w-full rounded-md mb-2 py-7 bg-white"
               src={SecondImage}
-              alt=""
+              alt="Image"
               width="1310"
               height="873"
             />
@@ -55,7 +55,7 @@ export const OurBikesMobile = () => {
             <img
               className="w-full rounded-md mb-2 py-7 bg-white"
               src={ThirdImage}
-              alt=""
+              alt="Image"
               width="1310"
               height="873"
             />
@@ -75,7 +75,7 @@ export const OurBikesMobile = () => {
             <img
               className="w-full rounded-md mb-2 py-7 bg-white"
               src={SecondImage}
-              alt=""
+              alt="Image"
               width="1310"
               height="873"
             />

@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "../src/images/evbike1.png";
-import { BigMotor } from "./BigMotor";
 
 const EasyRepairs = () => {
   return (
@@ -44,7 +43,7 @@ const EasyRepairs = () => {
           <img
             className="absolute inset-0 object-cover  w-full h-full lg:border-l"
             src={Image}
-            alt=""
+            alt="Image"
           />
         </div>
       </div>

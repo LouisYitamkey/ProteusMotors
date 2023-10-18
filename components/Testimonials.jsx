@@ -1,5 +1,5 @@
-import React from "react";
-import Image from "../src/images/proteusnetwork.webp";
+import React from 'react'
+import Image from '../src/images/proteusnetwork.webp'
 
 export const Testimonials = () => {
   return (
@@ -11,11 +11,7 @@ export const Testimonials = () => {
               <p className="text-2xl pl-6 font-bold tracking-tight text-black sm:text-4xl">
                 Ride with PROTEUS.
               </p>
-              {/* <p className="max-w-xl px-6 mt-4 text-lg md:text-base tracking-tight text-gray-600">
-                Our electric motorbikes are more than vehicles; they are a
-                lifestyle choice that combines technology, style, and
-                sustainability.
-              </p> */}
+
               <p className="max-w-xl px-6 mt-4 md:text-xl text-lg tracking-tight text-gray-600">
                 Proteus Motors is at the forefront of sustainable mobility in
                 Africa, offering cutting-edge electric vehicles that empower
@@ -27,7 +23,7 @@ export const Testimonials = () => {
                   <img
                     className="object-center rounded-md w-full h-auto bg-gray-200"
                     src={Image}
-                    alt=""
+                    alt="Image"
                     width="1310"
                     height="873"
                   />
@@ -56,10 +52,10 @@ export const Testimonials = () => {
           <img
             className="absolute inset-0 object-cover rounded-md w-full h-full lg:border-l"
             src={Image}
-            alt=""
+            alt="Image"
           />
         </div>
       </div>
     </div>
-  );
-};
+  )
+}

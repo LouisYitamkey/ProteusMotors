@@ -29,7 +29,7 @@ const Pioneering = () => {
                   href="#"
                   className="inline-flex items-center px-6 justify-center text-sm  text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
                 >
-                  Learn more &nbsp; →
+                  Learn moreeeee &nbsp; →
                 </a>
               </div>
             </div>
@@ -40,7 +40,7 @@ const Pioneering = () => {
             <img
               className="absolute rounded-md inset-0 object-cover w-full h-full bg-gray-200 lg:border-l"
               src={Image}
-              alt=""
+              alt="Image"
             />
           </div>
         </div>

@@ -184,7 +184,7 @@ export function HeaderMegaMenu() {
               Platform
             </a>
             <a href="#" className={classes.link}>
-              About Us
+              About
             </a>
             <HoverCard
               width={600}

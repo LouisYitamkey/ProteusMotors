@@ -22,7 +22,7 @@ const WhoWeAre = () => {
                     sustainability.
                   </p>
                   <p className="max-w-xl mt-4 text-xl py-2 tracking-tight text-gray-600">
-                    Be the change. Ride for change with Proteus Motors and be
+                    Be the change. Ride change with Proteus Motors and be
                     part of a cooler, cleaner, and sustainable future
                   </p>
                 </div>

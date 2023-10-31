@@ -1,5 +1,5 @@
-import React from "react";
-import Image from "../src/images/evbike.webp";
+import React from 'react'
+import Image from '../src/images/evbike.webp'
 
 const MotorImage = () => {
   return (
@@ -8,7 +8,7 @@ const MotorImage = () => {
         <img className="w-full bg-gray-300" src={Image} alt="MotorImage" />
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default MotorImage;
+export default MotorImage

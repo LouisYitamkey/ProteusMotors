@@ -1,5 +1,5 @@
-import React from "react";
-import Image from "../src/images/yangonew.png";
+import React from 'react'
+import Image from '../src/images/yangonew.png'
 
 const LogoClouds = () => {
   return (
@@ -32,7 +32,7 @@ const LogoClouds = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default LogoClouds;
+export default LogoClouds

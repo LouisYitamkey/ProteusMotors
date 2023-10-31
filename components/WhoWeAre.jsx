@@ -1,5 +1,7 @@
-import React from "react";
-import Image from "../src/images/evbike.webp";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import Image from '../src/images/evbike.webp'
+
 
 const WhoWeAre = () => {
   return (
@@ -27,12 +29,10 @@ const WhoWeAre = () => {
                   </p>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-3 mt-10 lg:flex-row lg:justify-start">
-                  <a
-                    href="#"
-                    className="inline-flex items-center justify-center text-base font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
-                  >
-                    Learn mored &nbsp; →
-                  </a>
+                  <Link className="inline-flex items-center justify-center text-base font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+                    {' '}
+                    Learn mored &nbsp; →{' '}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ const WhoWeAre = () => {
         <div></div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default WhoWeAre;
+export default WhoWeAre

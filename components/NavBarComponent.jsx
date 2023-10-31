@@ -135,7 +135,11 @@ export function HeaderMegaMenu() {
         <Group position="apart" sx={{ height: "100%" }}>
           <Link to="/">
             {" "}
-            <img className="object-contain w-[124px]  h-[80px]" src={Logo} alt="Image" />
+            <img
+              className="object-contain w-[124px]  h-[80px]"
+              src={Logo}
+              alt="Image"
+            />
           </Link>
 
           <Group
@@ -151,14 +155,14 @@ export function HeaderMegaMenu() {
               withinPortal
             >
               <HoverCard.Target>
-                <a href="#" className={classes.link}>
+                <Link className={classes.link}>
                   <Center inline>
                     <Box component="span" mr={5}>
                       Products
                     </Box>
                     <IconChevronDown size={16} />
                   </Center>
-                </a>
+                </Link>
               </HoverCard.Target>
 
               <HoverCard.Dropdown sx={{ overflow: "hidden" }}>
@@ -180,12 +184,8 @@ export function HeaderMegaMenu() {
               </HoverCard.Dropdown>
             </HoverCard>
 
-            <a href="#" className={classes.link}>
-              Platform
-            </a>
-            <a href="#" className={classes.link}>
-              About Us
-            </a>
+            <Link className={classes.link}>Platform</Link>
+            <a className={classes.link}>About Us</a>
             <HoverCard
               width={600}
               position="bottom"
@@ -253,12 +253,8 @@ export function HeaderMegaMenu() {
         <Collapse onClick={toggleDrawer} in={linksOpened}>
           {links}
         </Collapse>
-        <a href="#" className={classes.link}>
-          Platforms
-        </a>
-        <a href="#" className={classes.link}>
-          About Us
-        </a>
+        <Link className={classes.link}>Platforms</Link>
+        <Link className={classes.link}>About Us</Link>
 
         <Divider
           my="sm"
@@ -266,12 +262,9 @@ export function HeaderMegaMenu() {
         />
 
         <Group position="center" grow pb="xl" py={50} px="md">
-          <a
-            href="#"
-            className="items-center font-bold justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black"
-          >
+          <Link className="items-center font-bold justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black">
             Contact Sales
-          </a>
+          </Link>
         </Group>
       </Drawer>
     </Box>

@@ -1,5 +1,7 @@
-import React from 'react'
-import Image from '../src/images/proteusnetwork.webp'
+import React from "react";
+import { Link } from "react-router-dom";
+import Image from "../src/images/proteusnetwork.webp";
+
 
 export const Testimonials = () => {
   return (
@@ -31,18 +33,15 @@ export const Testimonials = () => {
               </div>
             </div>
             <div className="flex flex-col px-6 items-center justify-center gap-3 mt-5 lg:flex-row lg:justify-start">
-              <a
-                href="#"
-                className="items-center font-bold justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black"
-              >
-                Contact Sales
-              </a>
-              <a
-                href="#"
-                className="inline-flex items-center my-2 justify-center px-6 text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
-              >
-                Learn more &nbsp; →
-              </a>
+              <Link className="items-center font-bold justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black">
+                {" "}
+                Contact Sales{" "}
+              </Link>
+
+              <Link className="inline-flex items-center my-2 justify-center px-6 text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+                {" "}
+                Learn more &nbsp; →{" "}
+              </Link>
             </div>
           </div>
         </div>
@@ -57,5 +56,5 @@ export const Testimonials = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

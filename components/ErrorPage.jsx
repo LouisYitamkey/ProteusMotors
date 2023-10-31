@@ -7,6 +7,7 @@ import {
   Group,
   rem,
 } from "@mantine/core";
+import { Link } from "react-router-dom";
 
 const useStyles = createStyles((theme) => ({
   root: {
@@ -67,7 +68,7 @@ export function ErrorPage() {
       </Text>
       <Group position="center">
         <Button variant="subtle" size="md">
-          Take me back to home page
+         <Link to="/">Take me back to home page </Link> 
         </Button>
       </Group>
     </Container>

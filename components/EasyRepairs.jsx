@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Image from "../src/images/evbike1.png";
 
 const EasyRepairs = () => {
@@ -22,18 +23,21 @@ const EasyRepairs = () => {
               </p>
             </div>
             <div className="flex flex-col items-center justify-center gap-3 mt-6 lg:flex-row lg:justify-start">
-              <a
-                href="#"
+              <Link
                 className="items-center font-bold justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black"
+                to=""
               >
+                {" "}
                 Contact Sales
-              </a>
-              <a
-                href="#"
+              </Link>
+
+              <Link
                 className="inline-flex py-2 md:py-0 items-center px-6 justify-center text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
+                to=""
               >
-                Learn more &nbsp; →
-              </a>
+                {" "}
+                Learn more &nbsp; →{" "}
+              </Link>
             </div>
           </div>
         </div>

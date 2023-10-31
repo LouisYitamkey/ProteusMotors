@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import FirstImage from "../src/images/evbike12.png";
 import SecondImage from "../src/images/scooter.png";
 import ThirdImage from "../src/images/evbikewhite.png";
@@ -25,12 +26,11 @@ const OurBikes = () => {
                 Proteus Cruiser{" "}
               </span>
               <br />
-              <a
-                href="#"
-                className="inline-flex  pl-3 pt-2 items-center justify-center text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
-              >
+
+              <Link className="inline-flex  pl-3 pt-2 items-center justify-center text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+                {" "}
                 Learn more &nbsp; →
-              </a>
+              </Link>
             </figure>
             <figure>
               <img
@@ -45,12 +45,10 @@ const OurBikes = () => {
                 Proteus GoEasy{" "}
               </span>
               <br />
-              <a
-                href="#"
-                className="inline-flex pl-3  pt-2 items-center justify-center text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
-              >
+              <Link className="inline-flex  pl-3 pt-2 items-center justify-center text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+                {" "}
                 Learn more &nbsp; →
-              </a>
+              </Link>
             </figure>
           </div>
           <figure className="lg:col-span-4 md:pt-14">
@@ -67,12 +65,10 @@ const OurBikes = () => {
               Proteus All Weather{" "}
             </span>
             <br />
-            <a
-              href="#"
-              className="inline-flex pl-3  pt-2 items-center justify-center text-sm  text-black hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
-            >
+            <Link className="inline-flex  pl-3 pt-2 items-center justify-center text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+              {" "}
               Learn more &nbsp; →
-            </a>
+            </Link>
           </figure>
         </div>
       </div>

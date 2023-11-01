@@ -28,7 +28,7 @@ const Pioneering = () => {
 
                 <Link className="inline-flex items-center px-6 justify-center text-sm  text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
                   {' '}
-                  Learn more &nbsp; →
+                   more &nbsp; →
                 </Link>
               </div>
             </div>

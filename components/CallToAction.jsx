@@ -14,7 +14,8 @@ export const CallToAction = () => {
               Ride for change with Proteus Motors and be part of a cooler,
               cleaner, and sustainable future.
             </p>
-            <button> Trials</button>
+            <button> trials </button>
+      
           </div>
           <div className="flex flex-col items-center justify-center max-w-xl gap-3 mx-auto mt-10 lg:flex-row">
            

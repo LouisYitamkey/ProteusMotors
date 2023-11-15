@@ -12,7 +12,7 @@ export const CallToAction = () => {
             </p>
             <p className="max-w-xl mx-auto mt-4 text-lg tracking-tight text-gray-600">
               Ride for change with Proteus Motors and be part of a cooler,
-              cleaner, and sustainable future.
+              cleaner, and sustainable 
 
             </p>
           </div>

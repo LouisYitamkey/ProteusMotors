@@ -21,7 +21,7 @@ const BrandValues = () => {
                   </p>
                 </div>
                 <div className="mt-4 text-base text-gray-500">
-                  Reducing carbon emissions, protecting the environment.
+                  Reducing carbon , protecting the environment.
                 </div>
               </div>
               <div>

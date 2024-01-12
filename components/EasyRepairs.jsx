@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Image from "../src/images/evbike1.png";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import Image from '../src/images/evbike1.png'
 
 const EasyRepairs = () => {
   return (
@@ -27,7 +27,7 @@ const EasyRepairs = () => {
                 className="items-center font-bold justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black"
                 to=""
               >
-                {" "}
+                {' '}
                 Contact Sales
               </Link>
 
@@ -35,8 +35,8 @@ const EasyRepairs = () => {
                 className="inline-flex py-2 md:py-0 items-center px-6 justify-center text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
                 to=""
               >
-                {" "}
-                Learn more &nbsp; →{" "}
+                {' '}
+                Learn more &nbsp; →{' '}
               </Link>
             </div>
           </div>
@@ -52,7 +52,7 @@ const EasyRepairs = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default EasyRepairs;
+export default EasyRepairs

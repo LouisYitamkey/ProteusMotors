@@ -14,58 +14,58 @@ import {
   Drawer,
   Collapse,
   rem,
-} from "@mantine/core";
+} from '@mantine/core'
 
-import { useDisclosure } from "@mantine/hooks";
-import { IconCode, IconCoin, IconChevronDown } from "@tabler/icons-react";
-import Logo from "../src/images/proteus.png";
-import { Link } from "react-router-dom";
+import { useDisclosure } from '@mantine/hooks'
+import { IconCode, IconCoin, IconChevronDown } from '@tabler/icons-react'
+import Logo from '../src/images/proteus.png'
+import { Link } from 'react-router-dom'
 
 const useStyles = createStyles((theme) => ({
   link: {
-    display: "flex",
-    alignItems: "center",
-    height: "100%",
+    display: 'flex',
+    alignItems: 'center',
+    height: '100%',
     paddingLeft: theme.spacing.md,
     paddingRight: theme.spacing.md,
-    textDecoration: "none",
-    color: theme.colorScheme === "dark" ? theme.white : theme.black,
+    textDecoration: 'none',
+    color: theme.colorScheme === 'dark' ? theme.white : theme.black,
     fontWeight: 500,
     fontSize: 14,
 
-    [theme.fn.smallerThan("sm")]: {
+    [theme.fn.smallerThan('sm')]: {
       height: rem(42),
-      display: "flex",
-      alignItems: "center",
-      width: "100%",
+      display: 'flex',
+      alignItems: 'center',
+      width: '100%',
     },
 
     ...theme.fn.hover({
       backgroundColor:
-        theme.colorScheme === "dark"
+        theme.colorScheme === 'dark'
           ? theme.colors.dark[6]
           : theme.colors.gray[0],
     }),
   },
 
   subLink: {
-    width: "100%",
+    width: '100%',
     padding: `${theme.spacing.xs} ${theme.spacing.md}`,
     borderRadius: theme.radius.md,
 
     ...theme.fn.hover({
       backgroundColor:
-        theme.colorScheme === "dark"
+        theme.colorScheme === 'dark'
           ? theme.colors.dark[7]
           : theme.colors.gray[0],
     }),
 
-    "&:active": theme.activeStyles,
+    '&:active': theme.activeStyles,
   },
 
   dropdownFooter: {
     backgroundColor:
-      theme.colorScheme === "dark"
+      theme.colorScheme === 'dark'
         ? theme.colors.dark[7]
         : theme.colors.gray[0],
     margin: `calc(${theme.spacing.md} * -1)`,
@@ -73,43 +73,45 @@ const useStyles = createStyles((theme) => ({
     padding: `${theme.spacing.md} calc(${theme.spacing.md} * 2)`,
     paddingBottom: theme.spacing.xl,
     borderTop: `${rem(1)} solid ${
-      theme.colorScheme === "dark" ? theme.colors.dark[5] : theme.colors.gray[1]
+      theme.colorScheme === 'dark' ? theme.colors.dark[5] : theme.colors.gray[1]
     }`,
   },
 
   hiddenMobile: {
-    [theme.fn.smallerThan("sm")]: {
-      display: "none",
+    [theme.fn.smallerThan('sm')]: {
+      display: 'none',
     },
   },
 
   hiddenDesktop: {
-    [theme.fn.largerThan("sm")]: {
-      display: "none",
+    [theme.fn.largerThan('sm')]: {
+      display: 'none',
     },
   },
-}));
+}))
 
 const mockdata = [
   {
     icon: IconCode,
-    title: "Electric Bikes",
-    description: "Electric bikes from proteus motors",
-    path: "",
+    title: 'Electric Bikes',
+    description: 'Electric bikes from proteus motors',
+    path: '',
   },
   {
     icon: IconCoin,
-    title: "Chargeable Batteries",
-    description: "Electric bikes from proteus motors",
-    path: "",
+    title: 'Chargeable Batteries',
+    description: 'Electric bikes from proteus motors',
+    path: '',
   },
-];
+]
 
 export function HeaderMegaMenu() {
-  const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] =
-    useDisclosure(false);
-  const [linksOpened, { toggle: toggleLinks }] = useDisclosure(false);
-  const { classes, theme } = useStyles();
+  const [
+    drawerOpened,
+    { toggle: toggleDrawer, close: closeDrawer },
+  ] = useDisclosure(false)
+  const [linksOpened, { toggle: toggleLinks }] = useDisclosure(false)
+  const { classes, theme } = useStyles()
 
   const links = mockdata.map((item) => (
     <Link to={item.path} className={classes.subLink} key={item.title}>
@@ -127,14 +129,14 @@ export function HeaderMegaMenu() {
         </div>
       </Group>
     </Link>
-  ));
+  ))
 
   return (
     <Box>
       <Header height={90} className="md:px-52  px-3">
-        <Group position="apart" sx={{ height: "100%" }}>
+        <Group position="apart" sx={{ height: '100%' }}>
           <Link to="/">
-            {" "}
+            {' '}
             <img
               className="object-contain w-[124px]  h-[80px]"
               src={Logo}
@@ -143,7 +145,7 @@ export function HeaderMegaMenu() {
           </Link>
 
           <Group
-            sx={{ height: "100%" }}
+            sx={{ height: '100%' }}
             spacing={0}
             className={classes.hiddenMobile}
           >
@@ -165,13 +167,13 @@ export function HeaderMegaMenu() {
                 </Link>
               </HoverCard.Target>
 
-              <HoverCard.Dropdown sx={{ overflow: "hidden" }}>
+              <HoverCard.Dropdown sx={{ overflow: 'hidden' }}>
                 <Group position="apart" px="md"></Group>
 
                 <Divider
                   my="sm"
                   mx="-md"
-                  color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
+                  color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'}
                 />
 
                 <SimpleGrid cols={2} spacing={0}>
@@ -193,7 +195,7 @@ export function HeaderMegaMenu() {
               shadow="md"
               withinPortal
             >
-              <HoverCard.Dropdown sx={{ overflow: "hidden" }}>
+              <HoverCard.Dropdown sx={{ overflow: 'hidden' }}>
                 <Group position="apart" px="md">
                   <Text fw={500}>Features</Text>
                 </Group>
@@ -201,7 +203,7 @@ export function HeaderMegaMenu() {
                 <Divider
                   my="sm"
                   mx="-md"
-                  color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
+                  color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'}
                 />
 
                 <div className={classes.dropdownFooter}>
@@ -213,7 +215,7 @@ export function HeaderMegaMenu() {
 
           <Group className={classes.hiddenMobile}>
             <button className="bg-black text-white px-6 py-3 hover:bg-slate-600 rounded-full">
-              {" "}
+              {' '}
               Become a proteus champion
             </button>
           </Group>
@@ -239,7 +241,7 @@ export function HeaderMegaMenu() {
       >
         <Divider
           my="sm"
-          color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
+          color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'}
         />
 
         <UnstyledButton className={classes.link} onClick={toggleLinks}>
@@ -258,7 +260,7 @@ export function HeaderMegaMenu() {
 
         <Divider
           my="sm"
-          color={theme.colorScheme === "dark" ? "dark.5" : "gray.1"}
+          color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'}
         />
 
         <Group position="center" grow pb="xl" py={50} px="md">
@@ -268,5 +270,5 @@ export function HeaderMegaMenu() {
         </Group>
       </Drawer>
     </Box>
-  );
+  )
 }

@@ -6,16 +6,14 @@ import { ErrorPage } from '../components/ErrorPage'
 
 import './App.css'
 
-
 function App() {
   return (
     <BrowserRouter>
-    <HeaderMegaMenu />
-   
+      <HeaderMegaMenu />
+
       <Routes>
-        <Route path="/" element={ <LandingPage />} />
-        <Route path='*' element={ <ErrorPage/>}/>
-       
+        <Route path="/" element={<LandingPage />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   )

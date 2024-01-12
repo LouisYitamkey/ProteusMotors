@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Image from '../src/images/evbike.webp'
 
-
 const WhoWeAre = () => {
   return (
     <section>

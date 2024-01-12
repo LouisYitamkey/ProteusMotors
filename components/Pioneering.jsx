@@ -1,7 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Image from '../src/images/evbike1.png'
-
+import React from "react";
+import { Link } from "react-router-dom";
+import Image from "../src/images/evbike1.png";
 
 const Pioneering = () => {
   return (
@@ -22,12 +21,12 @@ const Pioneering = () => {
               </div>
               <div className="flex flex-col items-center justify-center max-w-lg gap-3 mx-auto mt-10 lg:flex-row lg:justify-start">
                 <Link className="items-center font-bold justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black">
-                  {' '}
-                  Contact Sales{' '}
+                  {" "}
+                  Contact Sales{" "}
                 </Link>
 
                 <Link className="inline-flex items-center px-6 justify-center text-sm  text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
-                  {' '}
+                  {" "}
                   Learn more &nbsp; →
                 </Link>
               </div>
@@ -45,7 +44,7 @@ const Pioneering = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Pioneering
+export default Pioneering;

@@ -1,23 +1,23 @@
-import React from "react";
-import { createStyles, Group, ActionIcon, rem } from "@mantine/core";
+import React from 'react'
+import { createStyles, Group, ActionIcon, rem } from '@mantine/core'
 import {
   IconBrandTwitter,
   IconBrandFacebook,
   IconBrandLinkedin,
-} from "@tabler/icons-react";
-import Logo from "../src/images/proteus.png";
+} from '@tabler/icons-react'
+import Logo from '../src/images/proteus.png'
 const useStyles = createStyles((theme) => ({
   footer: {
     // marginTop: rem(120),
     borderTop: `${rem(1)} solid ${
-      theme.colorScheme === "dark" ? theme.colors.dark[5] : theme.colors.gray[2]
+      theme.colorScheme === 'dark' ? theme.colors.dark[5] : theme.colors.gray[2]
     }`,
   },
 
   inner: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
     padding: `${theme.spacing.md} ${theme.spacing.md}`,
   },
 
@@ -25,25 +25,29 @@ const useStyles = createStyles((theme) => ({
     marginTop: theme.spacing.lg,
     marginBottom: theme.spacing.sm,
   },
-}));
+}))
 
 function FooterCentered({ links }) {
-  const { classes } = useStyles();
+  const { classes } = useStyles()
   const items = links.map((link) => (
     <a
       key={link.label}
       href={link.link}
-      style={{ color: "dimmed", lineHeight: 1 }}
+      style={{ color: 'dimmed', lineHeight: 1 }}
       onClick={(event) => event.preventDefault()}
     >
       <span className="hover:text-blue-500">{link.label}</span>
     </a>
-  ));
+  ))
 
   return (
     <div className={classes.footer}>
       <div className={classes.inner}>
-        <img className="object-contain  w-[124px]   h-[80px] " src={Logo} alt="Image" />
+        <img
+          className="object-contain  w-[124px]   h-[80px] "
+          src={Logo}
+          alt="Image"
+        />
 
         <Group className={classes.links}>{items}</Group>
       </div>
@@ -78,7 +82,7 @@ function FooterCentered({ links }) {
         </span>
       </div>
     </div>
-  );
+  )
 }
 
-export default FooterCentered;
+export default FooterCentered

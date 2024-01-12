@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import FirstImage from '../src/images/evbike12.png'
-import SecondImage from '../src/images/scooter.png'
-import ThirdImage from '../src/images/evbikewhite.png'
+import React from "react";
+import { Link } from "react-router-dom";
+import FirstImage from "../src/images/evbike12.png";
+import SecondImage from "../src/images/scooter.png";
+import ThirdImage from "../src/images/evbikewhite.png";
 
 export const OurBikesMobile = () => {
   return (
@@ -21,13 +21,13 @@ export const OurBikesMobile = () => {
               height="873"
             />
             <span className="font-medium  bg-white  rounded-md px-3">
-              {' '}
-              Proteus Cruiser{' '}
+              {" "}
+              Proteus Cruiser{" "}
             </span>
             <br />
 
             <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
-              {' '}
+              {" "}
               Learn more &nbsp; →
             </Link>
           </figure>
@@ -40,12 +40,12 @@ export const OurBikesMobile = () => {
               height="873"
             />
             <span className="font-medium bg-white  rounded-md px-3">
-              {' '}
-              Proteus GoEasy{' '}
+              {" "}
+              Proteus GoEasy{" "}
             </span>
             <br />
             <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
-              {' '}
+              {" "}
               Learn more &nbsp; →
             </Link>
           </figure>
@@ -58,12 +58,12 @@ export const OurBikesMobile = () => {
               height="873"
             />
             <span className="font-medium bg-white   rounded-md px-3">
-              {' '}
-              Amsterdam E-Bike{' '}
+              {" "}
+              Amsterdam E-Bike{" "}
             </span>
             <br />
             <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
-              {' '}
+              {" "}
               Learn more &nbsp; →
             </Link>
           </figure>
@@ -76,17 +76,17 @@ export const OurBikesMobile = () => {
               height="873"
             />
             <span className="font-medium bg-white  rounded-md px-3">
-              {' '}
-              All Weather{' '}
+              {" "}
+              All Weather{" "}
             </span>
             <br />
             <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
-              {' '}
+              {" "}
               Learn more &nbsp; →
             </Link>
           </figure>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};

@@ -1,22 +1,22 @@
-import React from "react";
-import { HeroImageBackground } from "../components/HeroSection";
-import BrandValues from "../components/BrandValues";
-import OurBikes from "../components/OurBikes";
-import LogoClouds from "../components/LogoClouds";
-import EasyRepairs from "../components/EasyRepairs";
-import Pioneering from "../components/Pioneering";
-import BigImage from "../components/BigImage";
-import FooterCentered from "../components/Footer";
-import { CallToAction } from "../components/CallToAction";
-import { Testimonials } from "../components/Testimonials";
-import { OurBikesMobile } from "../components/OurBikesMobile";
-import { BigMotor } from "../components/BigMotor";
+import React from 'react'
+import { HeroImageBackground } from '../components/HeroSection'
+import BrandValues from '../components/BrandValues'
+import OurBikes from '../components/OurBikes'
+import LogoClouds from '../components/LogoClouds'
+import EasyRepairs from '../components/EasyRepairs'
+import Pioneering from '../components/Pioneering'
+import BigImage from '../components/BigImage'
+import FooterCentered from '../components/Footer'
+import { CallToAction } from '../components/CallToAction'
+import { Testimonials } from '../components/Testimonials'
+import { OurBikesMobile } from '../components/OurBikesMobile'
+import { BigMotor } from '../components/BigMotor'
 
 export const LandingPage = () => {
   const links = [
-    { label: "Platform", link: "" },
-    { label: "About Us", link: "" },
-  ];
+    { label: 'Platform', link: '' },
+    { label: 'About Us', link: '' },
+  ]
   return (
     <div>
       <HeroImageBackground />
@@ -61,5 +61,5 @@ export const LandingPage = () => {
         <FooterCentered links={links} />
       </div>
     </div>
-  );
-};
+  )
+}

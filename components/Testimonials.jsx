@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Image from "../src/images/proteusnetwork.webp";
 
-
 export const Testimonials = () => {
   return (
     <div className="flex md:min-h-screen bg-white">

@@ -6,8 +6,8 @@ import {
   Container,
   Group,
   rem,
-} from "@mantine/core";
-import { Link } from "react-router-dom";
+} from '@mantine/core'
+import { Link } from 'react-router-dom'
 
 const useStyles = createStyles((theme) => ({
   root: {
@@ -16,42 +16,42 @@ const useStyles = createStyles((theme) => ({
   },
 
   label: {
-    textAlign: "center",
+    textAlign: 'center',
     fontWeight: 900,
     fontSize: rem(220),
     lineHeight: 1,
     marginBottom: `calc(${theme.spacing.xl} * 1.5)`,
     color:
-      theme.colorScheme === "dark"
+      theme.colorScheme === 'dark'
         ? theme.colors.dark[4]
         : theme.colors.gray[2],
 
-    [theme.fn.smallerThan("sm")]: {
+    [theme.fn.smallerThan('sm')]: {
       fontSize: rem(120),
     },
   },
 
   title: {
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
-    textAlign: "center",
+    textAlign: 'center',
     fontWeight: 900,
     fontSize: rem(38),
 
-    [theme.fn.smallerThan("sm")]: {
+    [theme.fn.smallerThan('sm')]: {
       fontSize: rem(32),
     },
   },
 
   description: {
     maxWidth: rem(500),
-    margin: "auto",
+    margin: 'auto',
     marginTop: theme.spacing.xl,
     marginBottom: `calc(${theme.spacing.xl} * 1.5)`,
   },
-}));
+}))
 
 export function ErrorPage() {
-  const { classes } = useStyles();
+  const { classes } = useStyles()
 
   return (
     <Container className={classes.root}>
@@ -68,9 +68,9 @@ export function ErrorPage() {
       </Text>
       <Group position="center">
         <Button variant="subtle" size="md">
-         <Link to="/">Take me back to home page </Link> 
+          <Link to="/">Take me back to home page </Link>
         </Button>
       </Group>
     </Container>
-  );
+  )
 }

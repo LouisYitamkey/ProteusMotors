@@ -11,6 +11,10 @@ import { CallToAction } from '../components/CallToAction'
 import { Testimonials } from '../components/Testimonials'
 import { OurBikesMobile } from '../components/OurBikesMobile'
 import { BigMotor } from '../components/BigMotor'
+import Charging from '../components/Charging'
+import Solution from '../components/Solution'
+import PioneeringNew from '../components/PioneeringNew'
+import Technology from '../components/Technology'
 
 export const LandingPage = () => {
   const links = [
@@ -23,6 +27,15 @@ export const LandingPage = () => {
       <div className="md:hidden">
         <BigMotor />
       </div>
+      <div className='py-8'> 
+        <Charging />
+        
+      </div>
+
+      <div>
+        <Solution />
+      </div>
+      
       <div className="md:py-16 mx-14">
         <EasyRepairs />
       </div>
@@ -38,21 +51,29 @@ export const LandingPage = () => {
       <div className="md:hidden">
         <OurBikesMobile />
       </div>
-      <div className="md:px-10">
-        <Pioneering />
+      <div className='md:px-10 py-4'>
+        <PioneeringNew />
       </div>
       <div className="md:mt-32 hidden md:block ">
         <BigImage />
       </div>
+      <div className="md:px-10 py-10">
+        <Pioneering />
+      </div>
+      
       <div className="md:hidden my-10">
         <BigMotor />
-      </div>
-      <div className="md:my-24 md:px-16">
-        <Testimonials />
       </div>
       <div className=" py-5 ">
         <LogoClouds />
       </div>
+      <div className="md:my-24 md:px-16">
+        <Testimonials />
+      </div>
+      <div>
+        <Technology />
+      </div>
+    
       <div className="bg-slate-50">
         <CallToAction />
       </div>

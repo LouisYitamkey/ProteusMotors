@@ -9,17 +9,13 @@ const EasyRepairs = () => {
         <div className="w-full mx-auto lg:max-w-6xl">
           <div className="max-w-xl mx-auto text-center lg:p-10 lg:text-left">
             <div>
-              <p className="text-2xl  font-bold tracking-tight text-black sm:text-4xl">
-                We are <span className="text-green-500"> PROTEUS. </span>
-              </p>
-              <p className="text-2xl pt-2 font-bold tracking-tight text-black sm:text-4xl">
-                We are bringing the future of mobility to Africa today.
+              
+              <p className="text-2xl pt-10 md:pt-2 font-bold tracking-tight text-black sm:text-4xl">
+              Unveiling a World of <span className='text-[#E31837]'> Possibilities. </span>
               </p>
 
-              <p className="max-w-xl mt-4 hidden md:block text-xl md:text-xl tracking-tight text-gray-600">
-                Proteus Motors is at the forefront of sustainable mobility in
-                Africa, offering cutting-edge electric vehicles that empower
-                individuals and businesses.
+              <p className="max-w-xl mt-4 hidden md:block text-xl md:text-lg tracking-tight text-gray-600">
+              Soon electric motorcycles are not just a mode of transportation but a part of our daily lives. Energy Companies provide riders with battery services, eliminating the need to purchase batteries upfront.
               </p>
             </div>
             <div className="flex flex-col items-center justify-center gap-3 mt-6 lg:flex-row lg:justify-start">
@@ -32,11 +28,11 @@ const EasyRepairs = () => {
               </Link>
 
               <Link
-                className="inline-flex py-2 md:py-0 items-center px-6 justify-center text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
+                className="inline-flex py-2 md:py-0 items-center px-6 justify-center text-base  text-blue-500 underline hover:text-blue-600 focus:outline-none focus-visible:outline-gray-600"
                 to=""
               >
                 {' '}
-                Learn more &nbsp; →{' '}
+                Become a BaaS Provider  →
               </Link>
             </div>
           </div>

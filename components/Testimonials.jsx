@@ -10,13 +10,11 @@ export const Testimonials = () => {
           <div className="max-w-xl mx-auto text-center lg:p-10 lg:text-left">
             <div>
               <p className="text-2xl pl-6 font-bold tracking-tight text-black sm:text-4xl">
-                Ride with PROTEUS.
+              Limitless Electric <span className="text-[#E31837]">Fleets. </span> 
               </p>
 
-              <p className="max-w-xl px-6 mt-4 md:text-xl text-lg tracking-tight text-gray-600">
-                Proteus Motors is at the forefront of sustainable mobility in
-                Africa, offering cutting-edge electric vehicles that empower
-                individuals and businesses.
+              <p className="max-w-xl px-6 my-6 md:text-xl text-lg tracking-tight text-gray-600">
+              Transform your fleet to become electric with Ionex. Ionex Energy offers a wide variety of two-in-one charging electric motorcycles, paired with suitable battery services. Electric mobility is now boundless.
               </p>
 
               <div className="relative md:hidden items-center w-full px-5 py-10 mx-auto md:px-12 lg:px-20 max-w-7xl">
@@ -37,9 +35,9 @@ export const Testimonials = () => {
                 Contact Sales{" "}
               </Link>
 
-              <Link className="inline-flex items-center my-2 justify-center px-6 text-sm  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+              <Link className="inline-flex items-center my-2 justify-center px-6 text-base  text-blue-500  hover:text-blue-600 focus:outline-none focus-visible:outline-gray-600">
                 {" "}
-                Learn more &nbsp; →{" "}
+                Learn more &nbsp;→{" "}
               </Link>
             </div>
           </div>

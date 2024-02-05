@@ -214,7 +214,7 @@ export function HeaderMegaMenu() {
           </Group>
 
           <Group className={classes.hiddenMobile}>
-            <button className="bg-black text-white px-6 py-3 hover:bg-slate-600 rounded-full">
+            <button className="bg-[#E31837] text-white px-6 py-3 hover:bg-slate-600 rounded-full">
               {' '}
               Become a proteus champion
             </button>

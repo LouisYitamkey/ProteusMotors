@@ -1,8 +1,5 @@
 import {
   Title,
-  Text,
-  Container,
-  Button,
   Overlay,
   createStyles,
   rem,
@@ -13,7 +10,7 @@ const useStyles = createStyles((theme) => ({
   wrapper: {
     position: "relative",
     paddingTop: rem(250),
-    paddingBottom: rem(250),
+    paddingBottom: rem(360),
     backgroundImage: `url(${BackgroundImage})`,
 
     backgroundSize: "contain",
@@ -33,19 +30,22 @@ const useStyles = createStyles((theme) => ({
   },
 
   title: {
-    fontWeight: 800,
-    fontSize: rem(55),
+    fontWeight: 700,
+    fontSize: rem(70),
     letterSpacing: rem(-1),
     paddingLeft: theme.spacing.md,
     paddingRight: theme.spacing.md,
+    paddingTop: 25,
     color: theme.white,
-    marginBottom: theme.spacing.xs,
+    marginBottom: theme.spacing.sm,
     textAlign: "center",
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
 
     [theme.fn.smallerThan("xs")]: {
-      fontSize: rem(28),
-      textAlign: "left",
+      fontSize: rem(30),
+      textAlign: "center",
+      paddingBottom: 25,
+      paddingTop: 30
     },
   },
 
@@ -110,25 +110,10 @@ export function HeroImageBackground() {
 
       <div className={classes.inner}>
         <Title className={classes.title}>
-          Ride for change with{" "}
-          <Text component="span" inherit className={classes.highlight}>
-            proteus motors.
-          </Text>
+          Going electric made easy
+         
         </Title>
 
-        <Container size={640}>
-          <Text size="xl" className={classes.description}>
-            Our electric motorbikes are more than vehicles; they are a lifestyle
-            choice that combines technology, style, and sustainability.
-          </Text>
-        </Container>
-
-        <div className={classes.controls}>
-          <button className="bg-white px-10 py-4 hover:bg-black hover:border-white hover:border hover:text-white rounded-full font-bold">
-            {" "}
-            Contact Sales{" "}
-          </button>
-        </div>
       </div>
     </div>
   );

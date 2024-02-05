@@ -2,19 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Image from "../src/images/evbike1.png";
 
-const Pioneering = () => {
+const PioneeringNew = () => {
   return (
     <div>
       <div className="flex md:min-h-screen ">
-        <div className="flex flex-col justify-center flex-1 px-8 py-8 md:px-12 lg:flex-none lg:px-24">
+        <div className="flex flex-col justify-center flex-1 px-8 py-4 md:py-8 md:px-12 lg:flex-none lg:px-24">
           <div className="w-full mx-auto lg:max-w-6xl">
             <div className="max-w-xl mx-auto text-center lg:p-10 lg:text-left">
               <div>
                 <p className="text-2xl py-4 font-bold tracking-tight text-black sm:text-4xl">
-                Eliminating Range <span className="text-[#E31837]">Anxiety </span>.
+                The Power of Incredible <span className="text-[#E31837]">Mobility </span>.
                 </p>
-                <p className="md:max-w-xl text-left px-4 md:px-0  mt-4 md:text-lg text-lg tracking-tight text-gray-600">
-                Battery-swapping Network Operators are deploying thousands of battery-swapping stations across the country, ending range anxiety. Riders can enjoy zero-wait charging and unlimited range, making electric mobility a breeze.
+                <p className="md:max-w-xl text-left  md:px-0  mt-4 md:text-lg text-lg tracking-tight text-gray-600">
+                EV Manufacturers are introducing electric motorcycles with integrated onboard battery metering, thanks to the Ionex BMU. This standardized electronic module revolutionizes EV design, making it seamless for vehicles to work with Energy Companies’ battery services.
                 </p>
               </div>
               <div className="flex flex-col items-center justify-center max-w-lg gap-3 mx-auto mt-10 lg:flex-row lg:justify-start">
@@ -23,9 +23,9 @@ const Pioneering = () => {
                   Contact Sales
                 </Link>
 
-                <Link className="inline-flex items-center underline px-6 justify-center text-base  text-blue-500 duration-200 hover:text-blue-600 focus:outline-none focus-visible:outline-gray-600">
-                  
-                  Be a Battery-swapping  Operator →
+                <Link className="inline-flex items-center px-6 justify-center text-base underline  text-blue-500 duration-200 hover:text-blue-600 focus:outline-none focus-visible:outline-gray-600">
+                  {" "}
+                  Integrate the Ionex  in to EV Designs →
                 </Link>
               </div>
             </div>
@@ -45,4 +45,4 @@ const Pioneering = () => {
   );
 };
 
-export default Pioneering;
+export default PioneeringNew;

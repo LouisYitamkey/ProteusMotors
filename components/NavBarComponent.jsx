@@ -186,7 +186,7 @@ export function HeaderMegaMenu() {
               </HoverCard.Dropdown>
             </HoverCard>
 
-            <Link className={classes.link}>Platform</Link>
+            <Link className={classes.link}>Solutions</Link>
             <a className={classes.link}>About Us</a>
             <HoverCard
               width={600}
@@ -255,7 +255,7 @@ export function HeaderMegaMenu() {
         <Collapse onClick={toggleDrawer} in={linksOpened}>
           {links}
         </Collapse>
-        <Link className={classes.link}>Platforms</Link>
+        <Link className={classes.link}>Solutions</Link>
         <Link className={classes.link}>About Us</Link>
 
         <Divider

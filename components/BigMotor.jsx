@@ -4,7 +4,7 @@ import Image from "../src/images/evbike1.png";
 export const BigMotor = () => {
   return (
     <section>
-      <div className="relative items-center bg-gray-100 w-full px-5 py-10 mx-auto md:px-12 lg:px-20 max-w-7xl">
+      <div className="relative items-center  w-full px-5 py-10 mx-auto md:px-12 lg:px-20 max-w-7xl">
         <figure className="">
           <img
             className="object-center rounded-md w-full h-auto bg-gray-50"

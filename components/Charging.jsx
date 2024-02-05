@@ -10,20 +10,20 @@ const Charging = () => {
                 <p className='text-[#E31837] text-center py-1  md:py-12 text-3xl md:text-5xl font-bold'> Two-in-One Charging  <span className='md:hidden'> <br/> </span>  Has Arrived</p>
                   <div className="grid md:grid-cols-2 pt-10 md:pt-0 col-span-2 gap-8 lg:grid-cols-3">
 
-                    <figure className='my-2'>
+                    <figure className='my-2 md:my-0'>
                       <img className="w-full rounded-md bg-gray-200" src={firstImage} alt="" width="1310" height="873"/>
                       <p className='font-medium  text-[#1A1A1A] py-2 md:py-4 text-xl'> Charge at Home</p>
                       <p> Plug-in your motorcycle while you’re parked in the garage to start the day fully charged.</p>
                     </figure>
-                    <figure className="className='my-2'">
+                    <figure className='my-2 md:my-0'>
                     <img className="w-full rounded-md text-[#1A1A1A] bg-gray-200" src={secondImage} alt="" width="1310" height="873"/>
                     <p className='font-medium py-2 md:py-4 text-xl'> Charge in Your Home </p>
                       <p> Charge your battery from the security of your home to get the most out of your removable battery.</p>
                     </figure>
-                    <figure className="className='my-2'">
-                    <img className="w-full py-2 md:py-4 rounded-md text-[#1A1A1A] bg-gray-200" src={thirdImage} alt="" width="1310" height="873"/>
-                    <p className='font-medium py-4 text-xl'>  Swap on the Go</p>
-                      <p> Swap batteries while riding around the city for zero-wait energy replenishment and say goodbye to range anxiety</p>
+                    <figure className='my-2 md:my-0'>
+                    <img className="w-full rounded-md text-[#1A1A1A] bg-gray-200" src={secondImage} alt="" width="1310" height="873"/>
+                    <p className='font-medium py-2 md:py-4 text-xl'> Charge in Your Home </p>
+                      <p> Charge your battery from the security of your home to get the most out of your removable battery.</p>
                     </figure>
                   </div>
                 </div>

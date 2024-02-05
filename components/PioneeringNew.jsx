@@ -18,10 +18,13 @@ const PioneeringNew = () => {
                 </p>
               </div>
               <div className="flex flex-col items-center justify-center max-w-lg gap-3 mx-auto mt-10 lg:flex-row lg:justify-start">
-                <Link className="items-center font-bold justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black">
-                  
-                  Contact Sales
-                </Link>
+              <Link
+                className="items-center font-bold justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black"
+                to='tel:+233 54 193 0635'
+              >
+                {' '}
+                Contact Sales
+              </Link>
 
                 <Link className="inline-flex items-center px-6 justify-center text-base underline  text-blue-500 duration-200 hover:text-blue-600 focus:outline-none focus-visible:outline-gray-600">
                   {" "}

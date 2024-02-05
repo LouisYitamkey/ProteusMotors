@@ -13,7 +13,7 @@ export const Testimonials = () => {
               Limitless Electric <span className="text-[#E31837]">Fleets. </span> 
               </p>
 
-              <p className="max-w-xl px-6 my-6 md:text-xl text-lg tracking-tight text-gray-600">
+              <p className="max-w-xl px-6 my-6 text-left md:text-xl text-lg tracking-tight text-gray-600">
               Transform your fleet to become electric with Ionex. Ionex Energy offers a wide variety of two-in-one charging electric motorcycles, paired with suitable battery services. Electric mobility is now boundless.
               </p>
 
@@ -30,9 +30,12 @@ export const Testimonials = () => {
               </div>
             </div>
             <div className="flex flex-col px-6 items-center justify-center gap-3 mt-5 lg:flex-row lg:justify-start">
-              <Link className="items-center font-bold justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black">
-                {" "}
-                Contact Sales{" "}
+            <Link
+                className="items-center font-bold justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-black border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black"
+                to='tel:+233 54 193 0635'
+              >
+                {' '}
+                Contact Sales
               </Link>
 
               <Link className="inline-flex items-center my-2 justify-center px-6 text-base  text-blue-500  hover:text-blue-600 focus:outline-none focus-visible:outline-gray-600">

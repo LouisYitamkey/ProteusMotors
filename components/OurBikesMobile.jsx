@@ -9,9 +9,9 @@ export const OurBikesMobile = () => {
     <section className="bg-slate-50">
       <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-20 max-w-7xl">
         <p className="text-2xl font-bold  pb-6 tracking-tight text-black sm:text-4xl">
-          Meet our E-Bikes.
+          Meet our <span className="text-[#E31837]">  E-Bikes </span>
         </p>
-        <div className="grid grid-cols-2 col-span-2 gap-4 lg:grid-cols-4">
+        <div className="grid grid-cols-1 col-span-2 gap-4 lg:grid-cols-4">
           <figure>
             <img
               className="w-full  rounded-md mb-2  bg-white"
@@ -26,7 +26,7 @@ export const OurBikesMobile = () => {
             </span>
             <br />
 
-            <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+            <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base   text-blue-500  hover:text-blue-600 focus:outline-none focus-visible:outline-gray-600">
               {" "}
               Learn more &nbsp; →
             </Link>
@@ -44,7 +44,7 @@ export const OurBikesMobile = () => {
               Proteus GoEasy{" "}
             </span>
             <br />
-            <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+            <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-blue-500  hover:text-blue-600 focus:outline-none focus-visible:outline-gray-600">
               {" "}
               Learn more &nbsp; →
             </Link>
@@ -62,7 +62,7 @@ export const OurBikesMobile = () => {
               Amsterdam E-Bike{" "}
             </span>
             <br />
-            <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+            <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-blue-500  hover:text-blue-600 focus:outline-none focus-visible:outline-gray-600">
               {" "}
               Learn more &nbsp; →
             </Link>
@@ -80,7 +80,7 @@ export const OurBikesMobile = () => {
               All Weather{" "}
             </span>
             <br />
-            <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-black  hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+            <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-blue-500  hover:text-blue-600 focus:outline-none focus-visible:outline-gray-600">
               {" "}
               Learn more &nbsp; →
             </Link>

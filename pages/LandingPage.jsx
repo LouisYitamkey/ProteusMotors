@@ -61,7 +61,7 @@ export const LandingPage = () => {
         <Pioneering />
       </div>
       
-      <div className="md:hidden my-10">
+      <div className="md:hidden my-2 md:my-10">
         <BigMotor />
       </div>
       <div className=" py-5 ">

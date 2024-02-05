@@ -22,8 +22,8 @@ const Charging = () => {
                     </figure>
                     <figure className='my-2 md:my-0'>
                     <img className="w-full rounded-md text-[#1A1A1A] bg-gray-200" src={secondImage} alt="" width="1310" height="873"/>
-                    <p className='font-medium py-2 md:py-4 text-xl'> Charge in Your Home </p>
-                      <p> Charge your battery from the security of your home to get the most out of your removable battery.</p>
+                    <p className='font-medium py-2 md:py-4 text-xl'> Swap on the go </p>
+                      <p> Swap batteries while riding around the city for zero-wait energy replenishment and say goodbye to range anxiety.</p>
                     </figure>
                   </div>
                 </div>

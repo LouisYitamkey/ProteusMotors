@@ -13,9 +13,9 @@ const OurBikes = () => {
             <p className="text-2xl font-bold  tracking-tight text-black sm:text-4xl">
               Meet our <span className="text-[#E31837]">E-Bikes. </span> 
             </p>
-            <figure>
+            <figure className="group">
               <img
-                className="w-full rounded-md pb-2 mb-2 bg-gray-200"
+                className="w-full rounded-md pb-2 mb-2 bg-gray-200 transition-transform duration-300 transform-gpu group-hover:scale-105"
                 src={FirstImage}
                 alt="Image"
                 width="1310"
@@ -32,9 +32,9 @@ const OurBikes = () => {
                 Learn more &nbsp; →
               </Link>
             </figure>
-            <figure>
+            <figure className="group">
               <img
-                className="w-full rounded-md mb-2 bg-gray-200"
+                className="w-full rounded-md mb-2 bg-gray-200 transition-transform duration-300 transform-gpu group-hover:scale-105"
                 src={ThirdImage}
                 alt="Image"
                 width="1310"
@@ -51,9 +51,9 @@ const OurBikes = () => {
               </Link>
             </figure>
           </div>
-          <figure className="lg:col-span-4 md:pt-14">
+          <figure className="lg:col-span-4 md:pt-14 group">
             <img
-              className="w-full rounded-md  mb-2 bg-gray-200"
+              className="w-full rounded-md  mb-2 bg-gray-200 transition-transform duration-300 transform-gpu group-hover:scale-105"
               src={SecondImage}
               alt="Image"
               width="1310"

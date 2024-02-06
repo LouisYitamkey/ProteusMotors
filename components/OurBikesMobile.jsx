@@ -12,9 +12,9 @@ export const OurBikesMobile = () => {
           Meet our <span className="text-[#E31837]">  E-Bikes </span>
         </p>
         <div className="grid grid-cols-1 col-span-2 gap-4 lg:grid-cols-4">
-          <figure>
+          <figure className="group">
             <img
-              className="w-full  rounded-md mb-2  bg-white"
+              className="w-full  rounded-md mb-2  bg-white transition-transform duration-300 transform-gpu group-hover:scale-105"
               src={FirstImage}
               alt="Image"
               width="1310"
@@ -31,9 +31,9 @@ export const OurBikesMobile = () => {
               Learn more &nbsp; →
             </Link>
           </figure>
-          <figure className="">
+          <figure className="group">
             <img
-              className="w-full rounded-md mb-2 py-7 bg-white"
+              className="w-full rounded-md mb-2 py-7 bg-white transition-transform duration-300 transform-gpu group-hover:scale-105"
               src={SecondImage}
               alt="Image"
               width="1310"
@@ -49,9 +49,9 @@ export const OurBikesMobile = () => {
               Learn more &nbsp; →
             </Link>
           </figure>
-          <figure className=" mt-5">
+          <figure className=" mt-5 group">
             <img
-              className="w-full rounded-md mb-2 py-7 bg-white"
+              className="w-full rounded-md mb-2 py-7 bg-white transition-transform duration-300 transform-gpu group-hover:scale-105"
               src={ThirdImage}
               alt="Image"
               width="1310"
@@ -67,9 +67,9 @@ export const OurBikesMobile = () => {
               Learn more &nbsp; →
             </Link>
           </figure>
-          <figure className="mt-5">
+          <figure className="mt-5 group">
             <img
-              className="w-full rounded-md mb-2 py-7 bg-white"
+              className="w-full rounded-md mb-2 py-7 bg-white transition-transform duration-300 transform-gpu group-hover:scale-105"
               src={SecondImage}
               alt="Image"
               width="1310"

@@ -77,7 +77,7 @@ export const OurBikesMobile = () => {
             />
             <span className="font-medium bg-white  rounded-md px-3">
               {" "}
-              All Weather{" "}
+              All Weatherr{" "}
             </span>
             <br />
             <Link className="inline-flex mb-2 pl-3 pt-2 items-center justify-center text-base  text-blue-500  hover:text-blue-600 focus:outline-none focus-visible:outline-gray-600">
